@@ -1,0 +1,82 @@
+html, body {
+    display: flex;
+    justify-content: center; /* 가로 중앙 정렬 */
+
+    background-color:ivory;
+
+    margin: 0; /* 기본 마진 제거 */
+}
+
+
+.container{
+   
+    display: flex; /*부모 클래스에 flex 속성 주기*/
+    flex-direction: column; /* 세로 방향으로 배치 */
+
+
+    background-color: black;
+    color: black;
+
+    border-radius: 5px;
+    padding: 3px;
+    width: 335px;
+   
+}
+
+.box1{
+    align-items: center; /*박스 중앙 정렬*/
+    text-align: center;/*내부 텍스트 중앙 정렬*/
+
+    margin: 10px; /*바깥 여백*/
+    padding: 10px; /*안쪽 여백*/
+    border: 1px;/*테두리*/
+    border-radius: 5px;
+    height: 80px;
+    width: 290px;
+
+    background-color: pink;
+   
+}
+
+.box2{
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px; 
+    width: 290px; 
+
+    background-color:antiquewhite; /*정렬 설정 시 li 요소 깨짐*/
+}
+
+.box3{
+    margin: 10px;
+    padding: 10px;
+    border: 1px;
+    border-radius: 5px;
+
+    background-color: pink;
+
+    width: 290px;
+    height: 40px;
+
+    display: flex;
+    justify-content: center;
+}
+
+ul{
+    list-style: none; 
+   
+}
+
+li {
+    margin-top: 20px; /* li 항목들 간 간격 설정 */ 
+}
+
+#sub{ /*submit 버튼*/
+    background-color: transparent; /*투명하게*/
+}
+
+
+#deleteAll{/*all delete 버튼*/
+    background-color: transparent;
+}
