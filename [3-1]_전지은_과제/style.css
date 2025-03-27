@@ -1,0 +1,102 @@
+@font-face {
+    font-family: 'S-CoreDream-3Light';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/noonfonts_six@1.2/S-CoreDream-3Light.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Ownglyph_wiseelist-Rg';
+    src: url('https://fastly.jsdelivr.net/gh/projectnoonnu/2501-1@1.1/Ownglyph_wiseelist-Rg.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    font-family: 'S-CoreDream-3Light';
+    margin: 70px;
+    background-color: #FDF7F4;
+}
+
+.hor {
+    display: flex;
+    flex-direction: column; /* 세로 방향으로 배치 */
+    align-items: center; /* 내부 요소 수평 가운데 정렬 */
+}
+
+.in {
+    font-family: 'Ownglyph_wiseelist-Rg';
+    height: 20px;
+    width: 500px;
+    padding: 20px;
+    font-size: 20px;
+    border: none;
+    }
+
+.button {
+    font-family: 'S-CoreDream-3Light';
+    height: 40px;
+    width: 80px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px; /* 모서리 둥글기 */
+    background-color: #685752;
+    color: white; /* 글자색 */
+    transition: transform 0.2s;
+}
+
+
+.add-button {
+    font-family: 'S-CoreDream-3Light';
+    height: 50px;
+    width: 100px;
+    margin: 50px;
+    border: none;
+    border-radius: 10px; /* 모서리 둥글기 */
+    background-color: #685752;
+    color: white; /* 글자색 */
+    transition: transform 0.2s;
+}
+
+.button:active {
+    transform: scale(0.89); /* 버튼 클릭 시 크기를 줄여서 눌리는 효과 */
+}
+
+.delete-button {
+    margin-left: 10px; /* 할 일 항목과 버튼 사이 간격 */
+    padding: 10px 15px; /* 버튼의 패딩 */
+    border: none;
+    background-color: #8EB486;
+    color: #685752; /* 글자색 */
+    border-radius: 5px;
+    cursor: pointer; /* 마우스 커서 변경 */
+}
+
+.delete-button:active {
+    transform: scale(0.89); /* 버튼 클릭 시 크기를 줄여서 눌리는 효과 */
+}
+
+ul {
+    list-style-type: none; /* 기본 마크 없애기 */
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+li::before {
+    content: ''; /* 비어있는 콘텐츠 생성 */
+    display: inline-block; /* 인라인 블록 요소로 설정 */
+    width: 10px;
+    height: 10px;
+    background-color: #997C70;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.completed {
+    text-decoration: line-through; /* 텍스트에 취소선 추가 */
+    color: gray; /* 완료된 항목 색상 변경 */
+}
+
+li {
+    margin-top: 20px;
+}
