@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css"/>
+    <title>To do list</title>
+</head>
+
+<body>
+    <h1>할 일</h1>
+    <form id="todo-form">
+        <input type="text" id="todo-input" placeholder="add to-do">
+        <button type="submit" id="very">아주 중요 🔥</button>
+        <button type="submit" id="imprt">중요 ⚡</button>
+        <button type="submit" id="not">덜 중요 👌</button>
+        <button type="submit" id="todo">할 일 ✍️</button>
+    </form>
+    <div class="grid-container">
+      <div class="section">
+        <h2>🔥 아주 중요</h2>
+        <div class="box">
+          <ul id="very-list" class="todo-box"></ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2>⚡ 중요</h2>
+        <div class="box">
+          <ul id="imprt-list" class="todo-box"></ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2>👌 덜 중요</h2>
+        <div class="box">
+          <ul id="not-list" class="todo-box"></ul>
+        </div>
+      </div>
+      <div class="section">
+        <h2>✍️ 할 일</h2>
+        <div class="box">
+          <ul id="todo-list" class="todo-box"></ul>
+        </div>
+      </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
