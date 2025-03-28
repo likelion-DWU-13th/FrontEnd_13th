@@ -1,0 +1,90 @@
+@import url('https://fonts.googleapis.com/css2?family=Boldonse&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic+Coding&display=swap');
+body{
+    background-color: rgb(212, 235, 242);
+
+}
+
+.one{
+    background-color: rgb(255, 255, 255);
+    border-style:solid;
+    border-color: #4184bc;
+    border-radius: 50px;
+    margin: 0 auto;
+    padding:50px;
+    width:500px;
+    height:600px;
+}
+.two{
+    width:500px;
+    height: 70px;
+}
+h1{
+    text-align: center;
+    font-family: "Boldonse", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
+#addInput {    
+    margin-left:5%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid;
+    border-radius: 10px;
+    border-color: #4184bc;
+    width: 70%;
+    border-width:1px;
+}
+#addButton{
+    width: 70px;    
+    height:40px;
+    border-color: #4184bc;
+    background-color:white;
+    border-radius: 20px;
+    border-width: 1px;
+}
+#addButton:hover{
+    background-color: aliceblue;
+}
+#delButton{
+    width: 70px;    
+    height:40px;
+    border-color: #4184bc;
+    background-color:white;
+    border-width: 1px;
+}
+#delButton:hover{
+    background-color: aliceblue;
+}
+button {
+    width:40px;
+    height:30px;
+    padding: 3px 2px;
+    margin-left:10px;
+    font-size: 13px;
+    background-color:white;
+    color:black;
+    border-radius: 10px;
+    border-width:1px;
+  }
+button:hover{
+    background-color: aliceblue;
+}
+#todo-list{
+    list-style-type: none;
+    font-size:15px; 
+}
+li{
+    background-color:#d7eeff;
+    height:50px;
+    display:flex;
+    font-family: "Nanum Gothic Coding", monospace;  
+    align-items: center;
+    font-size: 20px;    
+    margin-bottom: 15px;
+    border-radius: 10px;
+}
+#check{
+  width:30px;
+  height:20px;
+}
