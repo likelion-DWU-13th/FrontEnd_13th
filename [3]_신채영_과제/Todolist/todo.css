@@ -1,0 +1,46 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+}
+.todo-container{
+    
+    text-align: center;
+    background-color: rgb(221, 246, 238);
+    width: 600px;
+    min-height: 700px;
+}
+#todo-list{
+    text-align: left;
+    padding-top: 10px;
+}
+#todo-list li{
+    list-style: none;
+    padding: 5px;
+    padding-left: 110px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    
+}
+#todo-list button{
+   position: absolute;
+   right: 150px;
+   border-radius: 50%;
+   background-color: rgb(166, 166, 242);
+   border-color: rgb(166, 166, 242) ;
+   color: rgb(162, 0, 255);
+}
+#todo-form input{
+    width: 300px;
+    height: 25px;
+    background-color: aquamarine;
+    border-color: aquamarine;
+}
+#submitButton{
+    height: 20px;
+    width: 20px;
+    background-color: coral;
+    border-color: coral;
+}
