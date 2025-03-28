@@ -1,0 +1,72 @@
+* {
+	box-sizing: border-box;
+}
+
+body {
+    background-color: black;
+    text-align: center;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;   
+    margin: 0;
+}
+
+.TodoTitle {
+    color: beige;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "Chonburi", serif;
+    font-size: 30px; 
+}
+
+.container {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    text-align: center;
+    padding: 15px;
+    width: 400px;
+    height: 520px;
+    box-sizing: border-box;
+    border: 3px solid beige;
+    border-radius: 5%;
+}
+
+.main {
+    border: 3px solid beige;
+    width: 300px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border-radius: 5%;
+}
+
+#TodoInput {
+    margin-top: 10px;
+    width: 200px;
+    height: 25px;
+}
+
+#todo-list {
+    color:beige;
+    margin-left: auto;
+    margin-right: auto;
+    list-style-type: none; 
+}
+
+li {
+    padding: 5px;
+    margin-right: 50px;
+    
+}
+
+#addButton {
+    background-color: beige;
+    cursor: pointer;
+}
+
+.AlldeleteBtn button{
+    cusor: pointer;
+    margin-top: 13px;
+    background-color: beige;
+}
